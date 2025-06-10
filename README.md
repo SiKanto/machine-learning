@@ -100,7 +100,7 @@ Berdasarkan hasil eksplorasi data yang telah dilakukan, beberapa insight yang da
 
 ### Sumber dataset
 Sumber data yang digunakan berasal dari dataset destinasi wisata yang dapat diakses melalui tautan berikut: 
-[https://docs.google.com/spreadsheets/d/1FYtbusduf4XeDl9eFYmtwFVKesOkmmqD/edit?usp=sharing&ouid=109668250720515860025&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1FYtbusduf4XeDl9eFYmtwFVKesOkmmqD/edit?usp=sharing&ouid=109668250720515860025&rtpof=true&sd=true)
+[https://github.com/SiKanto/machine-learning/blob/500bc292693f47ba0bb9bb0258ef555431f15a19/Dataset%20Wisata%20Madura.xlsx](https://github.com/SiKanto/machine-learning/blob/500bc292693f47ba0bb9bb0258ef555431f15a19/Dataset%20Wisata%20Madura.xlsx)
 
 ## Data Preparation
 Berikut adalah teknik yang digunakan untuk mempersiapkan data dalam proyek sistem rekomendasi destinasi wisata di Madura:

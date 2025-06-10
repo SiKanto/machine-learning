@@ -83,10 +83,21 @@ Pada bagian ini, akan dijelaskan dataset yang digunakan dalam proyek sistem reko
 ### Exploratory data analysis:
 Berdasarkan hasil eksplorasi data yang telah dilakukan, beberapa insight yang dapat diperoleh adalah:
   * Asal Kota Destinasi: Mengetahui distribusi destinasi berdasarkan asal kota dapat membantu dalam strategi rekomendasi berbasis lokasi.
+
+![asal kota](https://github.com/user-attachments/assets/85a8f572-5d58-4cd9-9458-44e0ebad122b)
+
   * Distribusi Harga Tiket: Rentang harga tiket sangat bervariasi, menunjukkan bahwa Madura menawarkan destinasi wisata dengan berbagai tingkat harga, dari gratis hingga berbayar.
+
+![harga tiket](https://github.com/user-attachments/assets/5a518fdb-58fc-4b5e-badf-d065829facfb)
+
   * Distribusi Jumlah Pengunjung: Gambaran tentang jumlah pengunjung dapat mengindikasikan popularitas destinasi tertentu.
+
+![jumlah pengunjung](https://github.com/user-attachments/assets/0e496520-3517-4209-bf3a-da01dc3c43a3)
+
   * Distribusi Rating: Sebagian besar destinasi memiliki rating tertentu, yang memberikan gambaran umum tentang kepuasan pengunjung.
-  
+
+![rating](https://github.com/user-attachments/assets/217ab1ab-d3b9-4936-a49b-e2dc4c88fa95)
+
 ### Sumber dataset
 Sumber data yang digunakan berasal dari dataset destinasi wisata yang dapat diakses melalui tautan berikut: 
 [https://docs.google.com/spreadsheets/d/1FYtbusduf4XeDl9eFYmtwFVKesOkmmqD/edit?usp=sharing&ouid=109668250720515860025&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1FYtbusduf4XeDl9eFYmtwFVKesOkmmqD/edit?usp=sharing&ouid=109668250720515860025&rtpof=true&sd=true)
@@ -150,8 +161,7 @@ Setelah model MLP berhasil dilatih dan disimpan, tahap selanjutnya adalah menggu
 
 Hasil Prediksi menggunakan Top-N Recommendation
 
-![gambar 5](https://github.com/user-attachments/assets/be1f1784-d64f-44f1-982e-65152ce80590)
-
+![hasil rekomendasi](https://github.com/user-attachments/assets/757bd254-9061-4305-8562-53ab0df755e9)
 
 ## Evaluation
 Pada bagian Evaluasi, akan dijelaskan metrik evaluasi yang digunakan untuk menilai kinerja model sistem rekomendasi destinasi wisata di Pulau Madura. Karena model yang dibangun adalah model klasifikasi Multilayer Perceptron (MLP) untuk memprediksi kategori wisata, metrik evaluasi yang relevan adalah Akurasi dan Loss (Sparse Categorical Crossentropy).
@@ -168,4 +178,6 @@ Berikut adalah hasil evaluasi model:
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | 30 | 1.00 | 1.00 | 0.0041 | 5.06 |
 
-![gambar 6](https://github.com/user-attachments/assets/d6f1a0ad-c773-491a-be6f-fa803e697d21)
+![accuracy](https://github.com/user-attachments/assets/92bf775e-0369-428f-bfbb-78a4a7ff758f)
+
+![fine tuning](https://github.com/user-attachments/assets/4b088045-d610-46df-b144-7fcf53c61dbf)
